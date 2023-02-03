@@ -50,7 +50,8 @@ overflow-x:auto;
 
 body
 {
-    background-image: url("background_gif.GIF");
+    background-image: url("../Imgs/background_gif.GIF");
+    /* .. moves one folder back, in to assets, then into Imgs */
 }
 
 /*colors bg1 #282828 bg2 252F3B*/
