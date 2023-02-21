@@ -8,6 +8,7 @@
         <link rel="icon" type="image/x-icon" href="assets/Imgs/icon-highcon.PNG"><!--favicon-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
 
     <body>
@@ -26,7 +27,7 @@
         </div>
 
     <!--nav bar-->
-    <div class='container'>
+    <!-- <div class='container'>
         <div class="row" id="navBar">
                 <div class="col-md-3"></div>
                 <div class="col-md-2">
@@ -40,20 +41,13 @@
                 </div>
                 <div class="col-md-2"></div>
         </div>
-    </div>
-
-        <!-- <ul>  ~old navBar~
-            <li><a class="active" href="homePage.html"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="Art.html"><i class="fa-solid fa-robot"></i> Art</a></li>
-            <li><a href="Design.html"><i class="fa-solid fa-gamepad"></i> Design</a></li>
-            <li><a  href="Coding.html"><i class="fa-solid fa-user-ninja"></i> Coding</a></li>
-        </ul> -->
+    </div> -->
 
         
-        <hr>
+        
 
         <!--Portfolio links-->
-        <a name="Portfolio">
+    <a name="Portfolio">
         <div class='container' >
             </a>
             <div class='row'>
@@ -66,7 +60,45 @@
         </div>
     </a>
 
-        <div class='container'>
+        <div class="w3-container">
+            <div class='container-fluid'>
+                <div class="col-md-4">
+                    <div class="w3-card" style="width:90%" >
+                        <a href="Art.html">
+                            <img src="assets/Imgs/ArtCard.jpg" alt="Charcoal Bust Drawing" style="width:100%">
+                            <div class="w3-container" id="card">
+                                <h4><b>Art & Illustration</b></h4>
+                                <p></p>
+                            </div>
+                        </a>    
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="w3-card" style="width:90%">
+                        <a href="Design.html">
+                            <img src="assets/Imgs/UIUXCard.png" alt="Design Star Icon" style="width:100%">
+                            <div class="w3-container" id="card">
+                                <h4><b>UX/UI Design</b></h4>
+                                <p></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="w3-card" style="width:90%" >
+                            <a href="Coding.html">
+                            <img src="assets/Imgs/CodingCard.png" alt="Hello World!" style="width:100%">
+                            <div class="w3-container" id="card">
+                                <h4><b >Coding</b></h4>
+                                <p></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <!-- <div class='container'>
             <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="Art.html">
@@ -83,37 +115,26 @@
                         </a>
                 </div>
               </nav>
-        </div>
+        </div> -->
 
-
-        <hr>
+        
 
         <!--Job/Skill info-->
-        <a name="Certification">
-        <div class='container' >
-            <div class='row'>
-                <div class='col-md-2'></div>
-                <div class='col-md-6' id="cehTitle">
-                    <h1>Certification, Education, Hobbies</h1>
-                </div>
-                <div class='col-md-4'></div>
-            </div>
-        </a>
-
             <div class='container' id="CEH">
                 <div class='row'>
                     <div class='col-md-1'></div>
-                    <div class='col-md-3' id="cehSect">
-                        <h3 ><i class="fa-solid fa-file-circle-check"></i> Certification</h3>
-                        <p>Completed certification in the Interaction Design Foundation's course Design Thinking: The Ultimate Guide </p>
-                        <img src="assets/Imgs/course-certificate-design-thinking-the-ultimate-guide (1).jpg" alt="Corse certificate of 'Design Thinking: The Ultimate Guide'" width="100%">
-                    </div>
-                    <div class='col-md-4'id="cehSect">
+                    <div class='col-md-3'id="cehSect">
                         <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
                         <p>Currently Studding at Boise State University.</p>
                         <li>Major: Gaming, Interactive Media, Mobile (GIMM)</li>
                         <li>Minor: Visual Art</li>
                     </div>
+                    <div class='col-md-4' id="cehSect">
+                        <h3 ><i class="fa-solid fa-file-circle-check"></i> Certification</h3>
+                        <p>Completed certification in the Interaction Design Foundation's course Design Thinking: The Ultimate Guide </p>
+                        <img src="assets/Imgs/course-certificate-design-thinking-the-ultimate-guide (1).jpg" alt="Corse certificate of 'Design Thinking: The Ultimate Guide'" width="100%">
+                    </div>
+                    
                     <div class='col-md-3'id="cehSect">
                         <h3><i class="fa-solid fa-user-ninja"></i> Hobbies</h3>
                         <p>In my free time I often will cosplay, draw, watch anime, read manga, game, and spend time with loved ones.</p>
@@ -123,7 +144,7 @@
             </div>
         </div>
 
-        <hr>
+       
 
         <!--About Me-->
         <a name="ContactMe">
