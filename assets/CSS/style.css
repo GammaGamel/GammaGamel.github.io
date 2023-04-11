@@ -60,6 +60,7 @@ body
 /*page elements start ~~~~~~~~~~~~~  */
 
 /*non spef styls (top) ~~~~~~~~~~~~~  */
+/*links*/
 #highlight
 {
     color: #3FEEE6;
@@ -167,38 +168,11 @@ h3.a
     text-align: center;
 }
 
-/*code reused and modified form 260 MNDUV*/
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #282828;
-    position: -webkit-sticky; /* Safari 
-    position: sticky;
-    top: 0;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: #E5FDFF;
-    text-align: center;
-    padding: 30px 30px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #252F3B;
+.active {
+    background-color: #2c555d;
+    color:#3FEEE6;
   }
 
-  .active {
-    background-color: #252F3B;
-    color:#3FEEE6;
-  } */
 /*horizontal nav bar(bottom)~~~~~~~~~~~~~~~ */
 
 /*Portfolio links (top)~~~~~~~~~~~~~~~ */
