@@ -28,27 +28,36 @@
         </div>
 
         <!--nav bar-->
-        <div class='container'>
-            <div class="row" id="navBar">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <a href="index.html"><i class="fa-solid fa-house-chimney"></i> Home</a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="Art.html"><i class="fa-solid fa-palette"></i> Art</a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="Design.html"><i class="fa-solid fa-pen-ruler"></i> Design</a>
-                    </div>
-                    <div class="col-md-2">
-                        <a class="active" href="Coding.html"><i class="fa-solid fa-code"></i> Coding</a>
-                    </div>
-                    <div class="col-md-2"></div>
+        <!--Sticky nav bar -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+            <div class="container-fluid">
+                
+                <!-- Hamburger Icon for Mobile (Collapsible Menu) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- Navbar Links (collapsed on mobile) -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto ms-md-0 justify-content-center w-100">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fa-solid fa-house-chimney"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="3DArt.html"><i class="fa-solid fa-cube"></i> 3D Art</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="2DArt.html"><i class="fa-solid fa-pen-to-square"></i> 2D Art</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Coding.html"><i class="fa-solid fa-code"></i> Coding</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </nav>
 
-
-        <!--Fear Naut-->
+        <!--Fear Naut ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <div class='container'>
             <div class='row'>
                 <div class='col-1'></div>
@@ -136,6 +145,70 @@
             </div>
         </div>
 
+        <!--This Portfolio ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <div class='container'>
+            <div class='row'>
+                <div class='col-1'></div>
+                <div class='col-10' id="backgroundTwo">
+                    <h3>This Portfolio</h3>
+                    <div class='container'>
+                        <!--Image-->
+                        <div class='row'>
+                            <div class='col-1'></div>
+                            <div class='col-10'>
+                                <img src ="assets/Imgs/PortfolioPic.png"  width="100%"loading="lazy">
+                            </div>
+                            <div class='col-1'></div>
+                        </div>
+                        <!--About section-->
+                        <div class='row'>
+                            <div class='col-1'></div>
+                            <div class='col-9'>
+                            <p>This portfolio was independently designed and developed from the ground up using 
+                                HTML, CSS, and Bootstrap.</p>   
+                            </div>
+                            <div class='col-2'></div>
+                        </div>
+                        <!--Code Images-->
+                        <div class='row'>
+                            <div class='col-6'>
+                                <img src ="assets/Imgs/portfolioNavBar.png" alt="A segment of code showing the how the Navigation Bar is set up" width="100%" loading="lazy">
+                                <p>Partial code to create the Nav Bar</p>
+                            </div>
+                            <div class='col-6'>
+                                <img src ="assets/Imgs/portfolioCodePortfolioSect.png" alt="Screenshot of circle graph" width="100%" loading="lazy">
+                                <p></p>
+                                <br>
+                                <p>Partial code of the 'This Portfolio' section</p>
+                            </div>
+                        </div>
+                        <!--Data Graph About section-->
+                        <div class='row'>
+                            <div class='col-1'></div>
+                            <div class='col-10'>
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;
+                                    The code above (left) is part of the implementation for my navigation bar. Using Bootstrap, 
+                                    I combined a sticky navbar with a collapsible menu to create a responsive and user-friendly 
+                                    navigation experience. On desktop, the navbar spans the full width of the screen and remains 
+                                    visible as the user scrolls. On mobile, the navbar condenses into a hamburger menu icon that 
+                                    expands to reveal the different sections.
+                                </p> 
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;
+                                    The code above (right) demonstrates how I structured this section of my portfolio. It follows 
+                                    standard HTML conventions, ensuring that the code is clean, easy to read, and simple to modify 
+                                    or navigate.
+                                </p>
+                            </div>
+                            <div class='col-1'></div>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-1'></div>
+            </div>
+        </div>
+
         <!--CosData-->
         <div class='container'>
             <div class='row'>
@@ -154,11 +227,11 @@
                         <!--About section-->
                         <div class='row'>
                             <div class='col-1'></div>
-                            <div class='col-9'>
+                            <div class='col-10'>
                             <p>The primary aim of this project was to employ data visualization techniques to illustrate cosplay trends observed within the Reddit community, as well as within Boise State University's Gaming, Interactive Media, & Mobile (GIMM) program, and within my personal experiences. </p>
                             <p>Languages Used: HTML, CSS, JavaScript, MySQL</p>   
                             </div>
-                            <div class='col-2'></div>
+                            <div class='col-1'></div>
                         </div>
                         <!--2 Data Graph Images-->
                         <div class='row'>
@@ -174,22 +247,27 @@
                         <!--Data Graph About section-->
                         <div class='row'>
                             <div class='col-1'></div>
-                            <div class='col-9'>
+                            <div class='col-10'>
                             <p>
                                 &nbsp;&nbsp;&nbsp;
-                                This piece of code constitutes a crucial component of one of the more intricate and compelling graphs that I have developed. 
-                                The purpose of this graph is to visually represent the predominant forms of media being cosplayed on Reddit in an engaging manner. 
-                                My primary challenge in creating this graph revolved around gaining a comprehensive understanding of a particularly complex graphing function and determining the most effective approach to its implementation. 
+                                This section of code plays a key role in the development of one of the more intricate and 
+                                visually compelling graphs I've created. The graph is designed to illustrate the predominant 
+                                forms of media being cosplayed on Reddit in an engaging and interactive way. One of the primary 
+                                challenges I faced in its creation was understanding a complex graphing function and 
+                                determining the most efficient method for its implementation.
                             </p> 
                             <p>
                                 &nbsp;&nbsp;&nbsp;
-                                The displayed graph above (right) creates a colored circle that represents a data point, a cosplayer, and clusters them together by media type.
-                                What I find to be most compelling about the graph is the two kinds of interactions that users can engage with.
-                                If the usere hovers over one of these circles for a moment a small text box will appear containing what cosplay it represents and what peice of media it if from.
-                                The second form of interaction avaliable is the ability to move the circles around, while the movment of the circles dose not change anything about the graph, a bit of fun can be had by watching the circle quickly retreate to its designated group when released. 
+                                The graph above (right) visualizes data by representing each data point (cosplayer) as a 
+                                colored circle, grouped by media type. What makes this graph particularly engaging are the 
+                                two interactive features. First, when a user hovers over a circle, a tooltip appears, 
+                                displaying the name of the cosplay and the media from which it originates. The second 
+                                interaction allows users to drag the circles around the graph. While this action doesn't 
+                                affect the data itself, it adds an element of playfulness as the circles automatically 
+                                return to their original group when released.
                             </p> 
                             </div>
-                            <div class='col-2'></div>
+                            <div class='col-1'></div>
                         </div>
                     </div>    
                 </div>
